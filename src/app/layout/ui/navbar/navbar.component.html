@@ -1,0 +1,11 @@
+<div class="container">
+  <fa-icon class="text-blue text-3xl" [icon]="logo"></fa-icon>
+  <ul class="flex flex-col">
+    <li *ngFor="let option of navbarOptions">
+      <fa-icon class="text-3xl" [icon]="option.icon"></fa-icon>
+      <span>{{ option.value }}</span>
+    </li>
+  </ul>
+  <button class="publish"></button>
+  <div class="profile"></div>
+</div>
