@@ -1,7 +1,7 @@
-<div class="container mx-auto">
-  <app-navbar></app-navbar>
-  <div>
+<div class="container mx-auto grid h-full grid-cols-4">
+  <app-navbar class="flex justify-end border-r border-slate-200"></app-navbar>
+  <div class="col-span-2 block h-screen w-full overflow-y-scroll">
     <router-outlet></router-outlet>
   </div>
-  <app-aux-panel></app-aux-panel>
+  <app-aux-panel class="border-l border-slate-200"></app-aux-panel>
 </div>

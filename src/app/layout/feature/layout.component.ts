@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { AppRoutingModule } from '../../app-routing.module';
-import { AuxPanelComponent } from '../ui/aux-panel/aux-panel.component';
-import { NavbarComponent } from '../ui/navbar/navbar.component';
+import { AuxPanelComponent } from '../smart/aux-panel/aux-panel.component';
+import { NavbarComponent } from '../smart/navbar/navbar.component';
 
 @Component({
   selector: 'app-layout',

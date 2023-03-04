@@ -1,8 +1,8 @@
 <div class="flex items-center gap-x-4">
   <span class="rounded-full bg-blue p-4 font-medium text-white">CN</span>
   <div class="flex flex-col">
-    <span class="font-medium">Cristian de Gracia...</span>
-    <span class="text-sm text-slate-400">@cdegraciadev</span>
+    <span class="font-medium">{{ fullname | shorten : 17 }}</span>
+    <span class="text-sm text-slate-400">{{ username | username }}</span>
   </div>
   <span class="font-bold">...</span>
 </div>
