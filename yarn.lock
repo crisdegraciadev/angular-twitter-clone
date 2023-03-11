@@ -5578,6 +5578,13 @@ ng@^0.0.0:
   resolved "https://registry.yarnpkg.com/ng/-/ng-0.0.0.tgz#1ab91a42699d5fcc8d3b674006027fd3006ec551"
   integrity sha512-HwR40IBJa1ZU+CIGyuy7vSCN3xFYlSRfw5eIwwKOdOMNNNIl8KhT6PXKmHuFEFYpfrbOMaCYtr4QOJ3gkkubcg==
 
+ngx-infinite-scroll@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-infinite-scroll/-/ngx-infinite-scroll-15.0.0.tgz#61bbf89f121a796880a4ad67fe785b406532b220"
+  integrity sha512-FSP5UphRdl47vW8f/dRnPAU+napzruAKizBX2HS7MH292Ca+va6IU0J5+UQQmO5rXod2RZV7UhJ6+7g4xLfs1A==
+  dependencies:
+    tslib "^2.3.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/nice-napi/-/nice-napi-1.0.2.tgz"
@@ -6201,9 +6208,9 @@ prettier-plugin-tailwindcss@^0.2.4:
   resolved "https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.2.4.tgz"
   integrity sha512-wMyugRI2yD8gqmMpZSS8kTA0gGeKozX/R+w8iWE+yiCZL09zY0SvfiHfHabNhjGhzxlQ2S2VuTxPE3T72vppCQ==
 
-prettier@^2.8.4:
+prettier@2.8.4:
   version "2.8.4"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
 pretty-bytes@^5.3.0:

@@ -26,6 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "add": "^2.0.6",
     "ng": "^0.0.0",
+    "ngx-infinite-scroll": "^15.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -51,7 +52,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "postcss": "^8.4.21",
-    "prettier": "^2.8.4",
+    "prettier": "2.8.4",
     "prettier-plugin-organize-attributes": "^0.0.5",
     "prettier-plugin-tailwindcss": "^0.2.4",
     "tailwind": "^4.0.0",

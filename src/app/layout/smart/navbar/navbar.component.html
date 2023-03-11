@@ -1,7 +1,4 @@
-<div
-  class="container flex h-full w-fit flex-col justify-between pt-4 pb-6 pr-8"
-  *ngIf="currentUser$ | async as user"
->
+<div class="container flex h-full w-fit flex-col justify-between pt-4 pb-6 pr-8" *ngIf="currentUser$ | async as user">
   <div class="flex flex-col gap-y-8">
     <fa-icon class="text-3xl text-blue" [icon]="logo"></fa-icon>
     <ul class="flex flex-col gap-y-5">
@@ -11,9 +8,7 @@
         <span class="text-xl">{{ option.value }}</span>
       </li>
     </ul>
-    <button
-      class="h-12 w-60 rounded-3xl bg-blue text-xl font-medium text-white"
-    >
+    <button class="h-12 w-60 rounded-3xl bg-blue text-xl font-medium text-white">
       Twittear
     </button>
   </div>
